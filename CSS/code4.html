@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      body {
+        background-color: rgb(6, 6, 30);
+        color: white;
+      }
+      .mainHeader {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        color: white;
+        align-items: center;
+        padding: 10px;
+      }
+      .headerInfo {
+        /* background-color: red; */
+        display: flex;
+        gap: 20px;
+      }
+      .headerIcons {
+        /* background-color: blueviolet; */
+      }
+      /* navbar  */
+      nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(21, 24, 35);
+        color: white;
+        padding: 20px;
+        align-items: center;
+      }
+      .logo {
+        /* background-color: red; */
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .list {
+        /* background-color: rgb(42, 157, 165); */
+        display: flex;
+        gap: 20px;
+        list-style-type: none;
+      }
+
+      /* .heroSection*/
+      .heroSection {
+        margin-top: 50px;
+        display: flex;
+        /* flex-direction: column-reverse; */
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .heroSectionText {
+        width: 400px;
+        line-height: 1.5;
+      }
+      button {
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+      }
+      .Icons i {
+        border: 2px solid white;
+        padding: 10px 8px;
+        border-radius: 50%;
+        margin: 10px;
+      }
+      .heroSectionImage {
+        width: 300px;
+        height: 300px;
+      }
+      .heroSectionImage img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- header -->
+      <div class="mainHeader">
+        <div class="headerInfo">
+          <p>mail@gmail.com</p>
+          <p>9876789090</p>
+        </div>
+        <div class="headerIcons">
+          <i class="fa-brands fa-facebook-messenger"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <!-- nav  -->
+      <nav>
+        <div class="logo">Logo</div>
+        <ul class="list">
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Projects</li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- heroSection  -->
+    <div class="heroSection">
+      <div class="heroSectionText">
+        <h1>Lorem ipsum dolor</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ipsa
+          nam, quos ad sunt voluptatum eum tempora magnam minus similique nulla
+          reprehenderit hic neque soluta temporibus animi nihil, incidunt ut!
+        </p>
+        <button>Click me</button>
+        <div class="Icons">
+          <i class="fa-brands fa-facebook-messenger"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="heroSectionImage">
+        <img
+          src="https://images.unsplash.com/photo-1580894908361-967195033215?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
