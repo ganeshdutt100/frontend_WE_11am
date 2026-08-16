@@ -94,6 +94,60 @@
         height: 100%;
         border-radius: 50%;
       }
+
+      /* .sec-1 */
+      .sec-1 {
+        margin-top: 50px;
+      }
+      .sec-1 h1 {
+        text-align: center;
+      }
+      .empty {
+        width: 200px;
+        height: 2px;
+        background-color: white;
+        margin: auto;
+        border-radius: 50%;
+      }
+      .cards {
+        margin-top: 20px;
+        padding: 0 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .card {
+        width: 300px;
+        padding-bottom: 20px;
+        border-radius: 20px;
+        background-color: rgb(37, 29, 74);
+        text-align: center;
+        line-height: 1.5;
+      }
+      .card img {
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+      }
+      .card a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      footer {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: black;
+        gap: 20px;
+      }
+      footer div {
+        width: 300px;
+      }
+      footer ul {
+        width: 200px;
+      }
     </style>
   </head>
   <body>
@@ -145,5 +199,79 @@
         />
       </div>
     </div>
+
+    <div class="sec-1">
+      <h1>Lorem ipsum dolor sit.</h1>
+      <div class="empty"></div>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <img
+          src="https://images.unsplash.com/photo-1580894908361-967195033215?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D"
+          alt=""
+        />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae
+          pisicing elit. Repudiandaepisicing elit. Repudiandae tenetur mollitia
+          molestiae.
+        </p>
+        <a href="#">Read more...</a>
+      </div>
+
+      <!-- second card  -->
+      <div class="card">
+        <img
+          src="https://images.unsplash.com/photo-1580894908361-967195033215?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D"
+          alt=""
+        />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae
+          pisicing elit. Repudiandaepisicing elit. Repudiandae tenetur mollitia
+          molestiae.
+        </p>
+        <a href="#">Read more...</a>
+      </div>
+
+      <!-- third card -->
+      <div class="card">
+        <img
+          src="https://images.unsplash.com/photo-1580894908361-967195033215?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGRldmVsb3BlcnxlbnwwfHwwfHx8MA%3D%3D"
+          alt=""
+        />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae
+          pisicing elit. Repudiandaepisicing elit. Repudiandae tenetur mollitia
+          molestiae.
+        </p>
+        <a href="#">Read more...</a>
+      </div>
+    </div>
+
+    <footer>
+      <div>
+        <h1>Lorem, ipsum dolor.</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
+          quas.
+        </p>
+      </div>
+      <ul>
+        <li>item-1</li>
+        <li>item-1</li>
+        <li>item-1</li>
+        <li>item-1</li>
+        <li>item-1</li>
+      </ul>
+      <ul>
+        <li>item-1</li>
+        <li>item-1</li>
+        <li>item-1</li>
+        <li>item-1</li>
+        <li>item-1</li>
+      </ul>
+    </footer>
   </body>
 </html>
