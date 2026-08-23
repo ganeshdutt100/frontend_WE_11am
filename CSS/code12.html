@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(12, 12, 44);
+      }
+      .box {
+        background-color: rgba(45, 44, 44, 0.696);
+        width: 250px;
+
+        border-radius: 20px;
+        text-align: center;
+        color: white;
+        padding: 20px;
+        font-family: sans-serif;
+        transition: all 0.3s linear;
+        position: relative;
+      }
+      .box img {
+        width: 80px;
+      }
+      .box p {
+        line-height: 1.4;
+      }
+      .box:hover {
+        box-shadow: 0px 4px 10px 5px rgba(218, 165, 32, 0.457);
+      }
+
+      .empty {
+        background-color: goldenrod;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: -1;
+        filter: blur(20px);
+        left: 30%;
+        top: 40%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <img src="https://ganeshdutt.netlify.app/developer2.png" alt="" />
+      <div class="empty"></div>
+      <h1>Lorem, ipsum.</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+        assumenda sed temporibus voluptatum illo odit mollitia nostrum sequi
+        libero. Accusantium, dolores id suscipit quae totam fugiat cupiditate
+        commodi nihil laudantium!
+      </p>
+    </div>
+  </body>
+</html>
