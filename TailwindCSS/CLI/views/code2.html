@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <style>
       /* .box {
         background-color: aquamarine;
@@ -23,10 +30,45 @@
     </style>
   </head>
   <body>
-    <div
+    <!-- <div
       class="box bg-amber-700 sm:bg-blue-950 md:bg-yellow-400 text-white md:text-black py-4 text-center"
     >
       <h1>Lorem ipsum dolor sit amet.</h1>
-    </div>
+    </div> -->
+
+    <nav class="flex justify-around bg-gray-900 text-white py-4">
+      <div class="logo">logo</div>
+      <ul class="hidden sm:flex gap-3">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">projects</a></li>
+      </ul>
+      <div class="bar sm:hidden">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </div>
+    </nav>
+
+    <footer
+      class="bg-black text-white flex flex-col sm:flex-row py-5 px-3 justify-around"
+    >
+      <div class="w-[300px]">
+        <h2 class="font-bold text-2xl">Lorem ipsum dolor sit.</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
+          sequi, reiciendis fugiat animi praesentium necessitatibus?
+        </p>
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">projects</a></li>
+      </ul>
+      <div class="border h-[25px] rounded-2xl">
+        <input type="text" class="" />
+        <button class="bg-amber-500 rounded-2xl px-2">click me</button>
+      </div>
+    </footer>
   </body>
 </html>
